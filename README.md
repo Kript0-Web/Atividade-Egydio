@@ -33,7 +33,7 @@ O objetivo deste trabalho é demonstrar como a tecnologia atual pode tornar o pr
 
 ## o arquivo astah com os diagramas está neste link:
 
-- [Arquivo Astah](https://github.com/Kript0-Web/Pim_Egydio/blob/main/Diagramas%20ASTAH%20.asta)
+- [Arquivo Astah](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Diagrama%20ASTAH/Diagramas%20ASTAH%20.asta)
 
 
 ## Tecnologias Utilizadas
