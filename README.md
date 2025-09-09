@@ -31,12 +31,13 @@ O projeto visa desenvolver um sistema integrado de suporte técnico para uma emp
 
 ---
 
-## Tabela Descritiva das Sprints  
-
-| Sprint | Período | Documentação | <!-- futuramente Vídeo do Incremento |-->
-| Sprint 1 | 15/09 – 01/10 | [📄 Docs Sprint 1]() |<!-- futuramente [🎥 YouTube Sprint 1](https://youtube.com/) |-->
-
----
+## Tabela Descritiva das sprints 
+--- 
+| Sprint          |    Período    | Documentação                                     |
+| --------------- | :-----------: | ------------------------------------------------ |
+| 🔖 **SPRINT 1** |               |                                                             |
+| 🔖 **SPRINT 2** |               |                                                             |
+| 🔖 **SPRINT 3** |               |                                                             |
 
 ## 🛠️ Tecnologias Utilizadas
 
