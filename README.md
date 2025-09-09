@@ -1,54 +1,97 @@
-# Projeto de Sistema de Suporte com serviços de IA
+# Sistema de Suporte com Serviços de IA
 
-O sistema permite a abertura de chamados por setor, direcionando automaticamente os chamados para os técnicos responsáveis para que eles resolvam e possam registrar seu processos para documentar a tratativa de cada chamado. Além disso o sistema tera uma IA integrada, para que ela forneça instruções para os técnicos de como resolver os chamados, assim facilitando e acelerando a resolução dos problemas.
+## Descrição do Desafio
 
-## Objetivo Geral
+O projeto visa desenvolver um sistema integrado de suporte técnico para uma empresa de médio porte. O objetivo é substituir o atual processo de recebimento de chamados por e-mail, permitindo o registro centralizado das solicitações. A inteligência artificial (IA) será usada para sugerir soluções de forma automática ou encaminhar os chamados ao técnico adequado, com base nas intruções fornecidas pelo time de desenvolvimento.
 
-O objetivo deste trabalho é demonstrar como a tecnologia atual pode tornar o processo de suporte mais eficiente, organizado e acessível, ajudando para a melhoria do ambiente de trabalho e satisfação dos usuários.
+---
 
+## Backlog do Produto
 
-## Requisitos Funcionais (RF)
+| ID  | Item do Backlog                                                                 | Prioridade | Sprint   | Status   |
+|-----|----------------------------------------------------------------------------------|------------|----------|----------|
+| RF1 | Implementar sistema de Login                                                     | Alta       | Sprint 1 | Pendente |
+| RF2 | Criar telas distintas para Administrador e Usuário Comum                         | Alta       | Sprint 1 | Pendente |
+| RF3 | Funcionalidade para abrir chamado                                                | Alta       | Sprint 1 | Pendente |
+| RF4 | Permitir edição de chamado                                                       | Média      | Sprint 2 | Pendente |
+| RF5 | Adicionar campo de descrição do chamado                                          | Alta       | Sprint 1 | Pendente |
+| RF6 | Definir nível de prioridade do chamado                                           | Alta       | Sprint 2 | Pendente |
+| RF7 | Definir tipo de chamado                                                          | Média      | Sprint 2 | Pendente |
+| RF8 | Indicar setor para o qual o chamado deve ser aberto                              | Média      | Sprint 2 | Pendente |
+| RF9 | Notificação para o Técnico receber o chamado                                     | Alta       | Sprint 3 | Pendente |
+| RF10| Implementar IA para analisar texto e sugerir solução ao técnico                  | Alta       | Sprint 3 | Pendente |
+| RF11| Técnico finalizar atendimento registrando o procedimento realizado               | Alta       | Sprint 3 | Pendente |
+| RF12| Sistema armazenar histórico do que foi feito, quando e por quem                  | Alta       | Sprint 4 | Pendente |
 
-1. Deve ter login
-2. Tela de admin e pessoa comum
-3. Abrir chamado
-4. Editar chamado
-5. Descrição do chamado
-6. Nivel de prioridade do chamado
-7. Tipo de chamado
-8. Para qual setor o chamado deve ser aberto
-9. O Técnico tem que receber esse chamado
-10. A IA deve analisar o texto e dar solução para o técnico
-11. Após realizar o procedimento o técnico deve finalizar o atendimento escrevendo oq foi feito
-12. O sistema deve armazenar oq foi feito, quando e quem fez.
+---
 
-    
-## Requisitos Não Funcionais (RNF)
+## Cronograma de Evolução do Projeto (Visual)  
 
-1. Desempenho e Eficiência
-2. Segurança e Privacidade
-3. Manutenção e evolução
-4. Usabilidade e Acessibilidade
+<!--(Adicionar um quadro/diagrama ou link para Trello/Jira mostrando a evolução das sprints) --->  
 
+---
 
-## o arquivo astah com os diagramas está neste link:
+## Tabela Descritiva das Sprints  
 
-- [Arquivo Astah](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Diagrama%20ASTAH/Diagramas%20ASTAH%20.asta)
+| Sprint | Período | Documentação | <!-- futuramente Vídeo do Incremento |-->
+| Sprint 1 | 15/09 – 01/10 | [📄 Docs Sprint 1]() |<!-- futuramente [🎥 YouTube Sprint 1](https://youtube.com/) |-->
 
+---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- *Linguagem*: React, python, javascrip, html e css
-- *Framework*: React native
+- *Linguagens*: Python, HTML, CSS e JavaScript
+- *Framework*: Kivy, ReactJS e ReactNative
 - *Banco de Dados*: SQLServer
 - *Ferramentas*: GitHub, Trello, Figma
 
+---
 
-## Integrantes
+## Estrutura do Projeto
 
-- [Lucas de Oliveira Silva](https://github.com/Kript0-Web) (Scrum Master)
-- [Samuel Jhonata de Lima](https://github.com/SamuJL) (PO)
-- [Gabriel Oliveira dos Santos](https://github.com/gabrielods14) (Dev)
-- [João Gabriel Goulart Silva](https://github.com/Goulart06) (Dev)
-- [Thiago Almeida Ribeiro](https://github.com/Thiagoalmeida74) (Dev)
-- [Gabriel Guimaraes]() (Dev)
+/docs -> Documentação geral e por Sprint
+/backend -> Código do servidor
+/frontend-web -> Interface web
+/frontend-mobile -> Aplicativo mobile
+README.md -> Apresentação do projeto
+
+---
+
+## Execução, Uso e Testes
+
+### 🔹 Frontend 
+```bash
+
+```
+
+---
+
+### 🔹 Backend
+```bash
+
+```
+
+---
+
+### 🔹 Mobile
+```bash
+
+```
+
+---
+
+## 📂 Link para Pasta de Documentação  
+[📁 Acessar Documentação]()  
+
+---
+
+## Equipe
+
+- **Lucas de Oliveira Silva**[GitHub](https://github.com/Kript0-Web) 
+- **Samuel Jhonata de Lima**[GitHub](https://github.com/SamuJL) 
+- **Gabriel Oliveira dos Santos**[GitHub](https://github.com/gabrielods14) 
+- **João Gabriel Goulart Silva**[GitHub](https://github.com/Goulart06) 
+- **Thiago Almeida Ribeiro**[GitHub](https://github.com/Thiagoalmeida74) 
+- **Gabriel Silva Guimarães**[GitHub](https://github.com/guimagabs) 
+
+---
