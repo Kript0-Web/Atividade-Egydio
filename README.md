@@ -42,8 +42,8 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 |--------|----------|--------------|
 | Sprint 1 | 15/09 – 01/10 | [📄 Docs Sprint 1](#) |
 | Sprint 2 | 02/10 – 18/10 | [📄 Docs Sprint 2](#) |
-| Sprint 3 | 19/10 – 03/11 | [📄 Docs Sprint 3](#) |
-| Sprint 4 | 04/11 – 20/11 | [📄 Docs Sprint 4](#) |
+| Sprint 3 | 19/10 – 25/10 | [📄 Docs Sprint 3](#) |
+| Sprint 4 | 26/10 – 02/11 | [📄 Docs Sprint 4](#) |
 
 </details>
 
@@ -52,12 +52,12 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>🧾 <strong>Tabela Descritiva das Sprints</strong></summary>
 
-| Período | Documentação da Sprint | Vídeo no YouTube |
-|----------|------------------------|------------------|
-| Sprint 1 | [📄 Link Documentação](#) | [🎥 Vídeo Incremento 1](#) |
-| Sprint 2 | [📄 Link Documentação](#) | [🎥 Vídeo Incremento 2](#) |
-| Sprint 3 | [📄 Link Documentação](#) | [🎥 Vídeo Incremento 3](#) |
-| Sprint 4 | [📄 Link Documentação](#) | [🎥 Vídeo Incremento 4](#) |
+| Período | Documentação da Sprint | 
+|----------|------------------------|
+| Sprint 1 | [📄 Link Documentação](#) | 
+| Sprint 2 | [📄 Link Documentação](#) | 
+| Sprint 3 | [📄 Link Documentação](#) | 
+| Sprint 4 | [📄 Link Documentação](#) | 
 
 </details>
 
@@ -77,6 +77,58 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 
 <details>
   <summary>🏗️ <strong>Estrutura do Projeto</strong></summary>
+
+ 📁 SISTEMA_SUPORTE_IA/
+│
+├── 📁 backend/                # Projeto Python (Servidor, API e lógica de IA)
+│   ├── 📁 app/                 # Onde o código principal da aplicação vive
+│   │   ├── 📁 routes/           # Define os endpoints da API (ex: /login, /chamados)
+│   │   ├── 📁 services/         # Contém a lógica de negócio e regras da IA
+│   │   ├── 📁 models/           # Define as tabelas do banco de dados (ex: Usuário, Chamado)
+│   │   ├── 📁 schemas/          # Validação de dados de entrada/saída (Pydantic, etc.)
+│   │   └── __init__.py
+│   ├── 📁 migrations/         # Arquivos de migração do banco de dados (Alembic)
+│   ├── 📁 tests/              # Testes unitários e de integração
+│   ├── .env                  # Variáveis de ambiente (chave da API, string do BD)
+│   ├── main.py               # Ponto de entrada para iniciar o servidor
+│   └── requirements.txt      # Lista de dependências Python (pip)
+│
+├── 📁 frontend-web/           # Projeto Web (ReactJS para Técnicos/Admin)
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── 📁 assets/         # Imagens, fontes e ícones
+│   │   ├── 📁 components/     # Componentes reutilizáveis (Botão, Input, Card)
+│   │   ├── 📁 hooks/          # Hooks customizados (ex: useAuth)
+│   │   ├── 📁 pages/          # Telas principais (Login, DashboardAdmin, DetalheChamado)
+│   │   ├── 📁 services/       # Lógica de chamada da API (ex: api.js com Axios)
+│   │   ├── 📁 context/        # Contexto global (ex: AuthContext)
+│   │   ├── App.js            # Componente raiz
+│   │   ├── index.js          # Ponto de entrada do React
+│   │   └── routes.js         # Definição das rotas da aplicação web
+│   └── package.json          # Dependências do frontend web (npm)
+│
+├── 📁 frontend-mobile/        # Projeto Mobile (React Native + Expo para Usuários)
+│   ├── assets/               # Fontes, ícones e imagens
+│   ├── src/
+│   │   ├── 📁 components/     # Componentes reutilizáveis (CardChamado, BotaoCustomizado)
+│   │   ├── 📁 hooks/          # Hooks customizados
+│   │   ├── 📁 navigation/     # Gerenciamento de navegação (Stack e Tab Navigators)
+│   │   ├── 📁 screens/        # Telas do app (Login, MeusChamados, AbrirChamado)
+│   │   ├── 📁 services/       # Configuração da API para o mobile
+│   │   └── 📁 context/        # Contexto de autenticação do usuário
+│   ├── App.js                # Ponto de entrada do app (Expo)
+│   ├── app.json              # Configurações do projeto Expo
+│   └── package.json          # Dependências do projeto mobile (npm/yarn)
+│
+├── 📁 docs/                   # Toda a documentação do projeto (Manual, DoR/DoD)
+│   ├── Manual_Usuario.md
+│   ├── DoD_DoR.md
+│   └── Sprints/
+│       ├── Sprint_1.md
+│       └── ...
+│
+└── README.md                 # O arquivo que você está lendo
 
 
 </details>
