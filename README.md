@@ -59,10 +59,10 @@ A solução é multiplataforma — abrangendo **Web**, **Mobile** e **Desktop** 
 
 | Período | Funcionalidades Desenvolvidas | Documentação da Sprint | Vídeo no YouTube |
 |----------|-------------------------------|------------------------|------------------|
-| Sprint 1 | Login, autenticação e CRUD de usuários | [📄 Documentação Sprint 1](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint1.md) | [🎥 Incremento 1](#) |
-| Sprint 2 | Abertura, acompanhamento e visualização de chamados (Admin, Colaborador e Suporte) | [📄 Documentação Sprint 2](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint2.md) | [🎥 Incremento 2](#) |
-| Sprint 3 | Integração da IA e gerenciamento completo do ciclo de chamados | [📄 Documentação Sprint 3](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint3.md) | [🎥 Incremento 3](#) |
-| Sprint 4 | Relatórios administrativos e técnicos de produtividade | [📄 Documentação Sprint 4](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint4.md) | [🎥 Incremento 4](#) |
+| Sprint 1 | Login, autenticação e CRUD de usuários | [📄 Documentação Sprint 1](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%201.md) | [🎥 Incremento 1](#) |
+| Sprint 2 | Abertura, acompanhamento e visualização de chamados (Admin, Colaborador e Suporte) | [📄 Documentação Sprint 2](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%202.md) | [🎥 Incremento 2](#) |
+| Sprint 3 | Integração da IA e gerenciamento completo do ciclo de chamados | [📄 Documentação Sprint 3](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%203.md) | [🎥 Incremento 3](#) |
+| Sprint 4 | Relatórios administrativos e técnicos de produtividade | [📄 Documentação Sprint 4](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%204.md) | [🎥 Incremento 4](#) |
 
 </details>
 
@@ -156,7 +156,7 @@ O projeto está dividido em módulos independentes integrados via API:
 <details>
   <summary>📂 <strong>Link para Pasta de Documentação</strong></summary>
 
-📁 [Acessar Documentação](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/Diagrama%20UML%20Sistema.asta)
+📁 [Acessar Documentação](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Diagrama%20ASTAH/Diagrama%20UML%20Sistema.asta)
 
 </details>
 
