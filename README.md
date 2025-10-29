@@ -1,3 +1,4 @@
+
 # 📌 Sistema de Suporte com Serviços de IA — *HelpWave*
 
 ---
