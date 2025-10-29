@@ -1,13 +1,16 @@
-# 📌 Sistema de Suporte com Serviços de IA
+# 📌 Sistema de Suporte com Serviços de IA — *HelpWave*
 
 ---
 
 <details open>
   <summary>🎯 <strong>Descrição do Desafio</strong></summary>
 
-O projeto visa desenvolver um sistema integrado de suporte técnico para uma empresa de médio porte.  
-O objetivo é substituir o atual processo de recebimento de chamados por e-mail, permitindo o registro centralizado das solicitações.  
-A inteligência artificial (IA) será usada para sugerir soluções de forma automática ou encaminhar os chamados ao técnico adequado, com base nas instruções fornecidas pelo time de desenvolvimento.
+O **HelpWave** é um sistema integrado de suporte técnico voltado para empresas de médio porte.  
+Seu principal objetivo é substituir o processo tradicional de recebimento de chamados por e-mail, centralizando as solicitações em uma plataforma unificada.  
+
+O sistema utiliza **Inteligência Artificial (IA)** para analisar automaticamente as descrições dos chamados, sugerindo soluções ao técnico responsável.  
+A solução é multiplataforma — abrangendo **Web**, **Mobile** e **Desktop** — e conta com três perfis principais de usuário:  
+**Administrador**, **Suporte Técnico** e **Colaborador**.
 
 </details>
 
@@ -18,18 +21,20 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 
 | ID   | Item do Backlog | Prioridade | Sprint | Status   |
 |------|------------------|-------------|---------|-----------|
-| RF1  | Implementar sistema de Login | Alta | Sprint 1 | Pendente |
-| RF2  | Criar telas distintas para Administrador e Usuário Comum | Alta | Sprint 1 | Pendente |
-| RF3  | Funcionalidade para abrir chamado | Alta | Sprint 1 | Pendente |
-| RF4  | Permitir edição de chamado | Média | Sprint 2 | Pendente |
-| RF5  | Adicionar campo de descrição do chamado | Alta | Sprint 1 | Pendente |
-| RF6  | Definir nível de prioridade do chamado | Alta | Sprint 2 | Pendente |
-| RF7  | Definir tipo de chamado | Média | Sprint 2 | Pendente |
-| RF8  | Indicar setor para o qual o chamado deve ser aberto | Média | Sprint 2 | Pendente |
-| RF9  | Notificação para o Técnico receber o chamado | Alta | Sprint 3 | Pendente |
-| RF10 | Implementar IA para analisar texto e sugerir solução ao técnico | Alta | Sprint 3 | Pendente |
-| RF11 | Técnico finalizar atendimento registrando o procedimento realizado | Alta | Sprint 3 | Pendente |
-| RF12 | Sistema armazenar histórico do que foi feito, quando e por quem | Alta | Sprint 4 | Pendente |
+| RF01 | Implementar autenticação e controle de acesso com níveis de permissão (Administrador, Suporte, Colaborador) | Alta | Sprint 1 | Pendente |
+| RF02 | Permitir cadastro de novos usuários (Administrador) | Alta | Sprint 1 | Pendente |
+| RF03 | Permitir edição de informações de usuários (Administrador) | Média | Sprint 1 | Pendente |
+| RF04 | Permitir exclusão de usuários cadastrados, com validação de vínculos a chamados ativos | Média | Sprint 1 | Pendente |
+| RF05 | Permitir abertura de chamados com título, descrição e categoria (Colaborador) | Alta | Sprint 2 | Pendente |
+| RF06 | Permitir acompanhamento de chamados abertos e seus status (Colaborador) | Alta | Sprint 2 | Pendente |
+| RF07 | Visualizar todos os chamados do sistema com filtros avançados (Administrador) | Alta | Sprint 2 | Pendente |
+| RF08 | Exibir chamados atribuídos a cada técnico (Suporte Técnico) | Média | Sprint 2 | Pendente |
+| RF09 | Integrar IA para sugerir soluções automáticas com base na descrição do chamado | Alta | Sprint 3 | Pendente |
+| RF10 | Permitir que o técnico analise, aceite, modifique ou rejeite a sugestão da IA | Alta | Sprint 3 | Pendente |
+| RF11 | Registrar a solução aplicada no chamado (Suporte Técnico) | Alta | Sprint 3 | Pendente |
+| RF12 | Concluir chamado resolvido e notificar colaborador (Suporte Técnico) | Alta | Sprint 3 | Pendente |
+| RF13 | Gerar relatórios administrativos e de desempenho (Administrador) | Média | Sprint 4 | Pendente |
+| RF14 | Visualizar relatórios técnicos de produtividade (Suporte Técnico) | Média | Sprint 4 | Pendente |
 
 </details>
 
@@ -38,12 +43,12 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>📆 <strong>Cronograma de Evolução do Projeto (Visual)</strong></summary>
 
-| Sprint | Período | Documentação |
-|--------|----------|--------------|
-| Sprint 1 | 15/09 – 01/10 | [📄 Docs Sprint 1](#) |
-| Sprint 2 | 02/10 – 18/10 | [📄 Docs Sprint 2](#) |
-| Sprint 3 | 19/10 – 25/10 | [📄 Docs Sprint 3](#) |
-| Sprint 4 | 26/10 – 02/11 | [📄 Docs Sprint 4](#) |
+| Sprint | Período | Entregas Principais |
+|--------|----------|---------------------|
+| Sprint 1 | 15/09 – 01/10 | Autenticação, login e gerenciamento de usuários (CRUD completo) |
+| Sprint 2 | 02/10 – 18/10 | Módulo de chamados (abertura, acompanhamento e visualização por perfil) |
+| Sprint 3 | 19/10 – 03/11 | Integração com IA e fluxo de resolução de chamados (sugestão, análise e conclusão) |
+| Sprint 4 | 04/11 – 20/11 | Relatórios administrativos e técnicos com filtros e exportação |
 
 </details>
 
@@ -52,12 +57,12 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>🧾 <strong>Tabela Descritiva das Sprints</strong></summary>
 
-| Período | Documentação da Sprint | 
-|----------|------------------------|
-| Sprint 1 | [📄 Link Documentação](#) | 
-| Sprint 2 | [📄 Link Documentação](#) | 
-| Sprint 3 | [📄 Link Documentação](#) | 
-| Sprint 4 | [📄 Link Documentação](#) | 
+| Período | Funcionalidades Desenvolvidas | Documentação da Sprint | Vídeo no YouTube |
+|----------|-------------------------------|------------------------|------------------|
+| Sprint 1 | Login, autenticação e CRUD de usuários | [📄 Documentação Sprint 1](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint1.md) | [🎥 Incremento 1](#) |
+| Sprint 2 | Abertura, acompanhamento e visualização de chamados (Admin, Colaborador e Suporte) | [📄 Documentação Sprint 2](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint2.md) | [🎥 Incremento 2](#) |
+| Sprint 3 | Integração da IA e gerenciamento completo do ciclo de chamados | [📄 Documentação Sprint 3](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint3.md) | [🎥 Incremento 3](#) |
+| Sprint 4 | Relatórios administrativos e técnicos de produtividade | [📄 Documentação Sprint 4](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/sprints/sprint4.md) | [🎥 Incremento 4](#) |
 
 </details>
 
@@ -66,10 +71,35 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>🛠️ <strong>Tecnologias Utilizadas</strong></summary>
 
-- **Linguagens:** Python, HTML, CSS e JavaScript  
-- **Frameworks:** Kivy, ReactJS e React Native  
-- **Banco de Dados:** SQL Server  
-- **Ferramentas:** GitHub, Trello e Figma  
+### 🧩 **Arquitetura Geral**
+- Sistema distribuído com **Backend centralizado (API REST)**, integrando os módulos Web, Mobile e Desktop.  
+- Comunicação via **HTTP/JSON** com autenticação baseada em tokens.  
+- Hospedagem e serviços em nuvem através da **Azure Cloud**.
+
+### ⚙️ **Backend Centralizado (API de Banco de Dados)**
+- **Linguagem:** C# (.NET 8)  
+- **ORM:** Entity Framework Core  
+- **Banco de Dados:** SQL Server (Azure)
+
+### 🌐 **Frontend Web**
+- **Linguagens:** HTML, CSS, JavaScript  
+- **Framework:** React  
+
+### 🔧 **Backend Web**
+- **Linguagem:** Python  
+- **Framework:** Flask  
+
+### 📱 **Mobile**
+- **Linguagem:** JavaScript  
+- **Framework:** React Native  
+
+### 💻 **Desktop**
+- **Linguagem:** Python  
+- **Framework:** Kivy  
+
+### ☁️ **Infraestrutura e Gestão**
+- **Controle de Versão e Gestão de Projeto:** GitHub Projects  
+- **Nuvem e Deploy:** Azure Cloud  
 
 </details>
 
@@ -78,57 +108,14 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>🏗️ <strong>Estrutura do Projeto</strong></summary>
 
- 📁 SISTEMA_SUPORTE_IA/
-│
-├── 📁 backend/                # Projeto Python (Servidor, API e lógica de IA)
-│   ├── 📁 app/                 # Onde o código principal da aplicação vive
-│   │   ├── 📁 routes/           # Define os endpoints da API (ex: /login, /chamados)
-│   │   ├── 📁 services/         # Contém a lógica de negócio e regras da IA
-│   │   ├── 📁 models/           # Define as tabelas do banco de dados (ex: Usuário, Chamado)
-│   │   ├── 📁 schemas/          # Validação de dados de entrada/saída (Pydantic, etc.)
-│   │   └── __init__.py
-│   ├── 📁 migrations/         # Arquivos de migração do banco de dados (Alembic)
-│   ├── 📁 tests/              # Testes unitários e de integração
-│   ├── .env                  # Variáveis de ambiente (chave da API, string do BD)
-│   ├── main.py               # Ponto de entrada para iniciar o servidor
-│   └── requirements.txt      # Lista de dependências Python (pip)
-│
-├── 📁 frontend-web/           # Projeto Web (ReactJS para Técnicos/Admin)
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── 📁 assets/         # Imagens, fontes e ícones
-│   │   ├── 📁 components/     # Componentes reutilizáveis (Botão, Input, Card)
-│   │   ├── 📁 hooks/          # Hooks customizados (ex: useAuth)
-│   │   ├── 📁 pages/          # Telas principais (Login, DashboardAdmin, DetalheChamado)
-│   │   ├── 📁 services/       # Lógica de chamada da API (ex: api.js com Axios)
-│   │   ├── 📁 context/        # Contexto global (ex: AuthContext)
-│   │   ├── App.js            # Componente raiz
-│   │   ├── index.js          # Ponto de entrada do React
-│   │   └── routes.js         # Definição das rotas da aplicação web
-│   └── package.json          # Dependências do frontend web (npm)
-│
-├── 📁 frontend-mobile/        # Projeto Mobile (React Native + Expo para Usuários)
-│   ├── assets/               # Fontes, ícones e imagens
-│   ├── src/
-│   │   ├── 📁 components/     # Componentes reutilizáveis (CardChamado, BotaoCustomizado)
-│   │   ├── 📁 hooks/          # Hooks customizados
-│   │   ├── 📁 navigation/     # Gerenciamento de navegação (Stack e Tab Navigators)
-│   │   ├── 📁 screens/        # Telas do app (Login, MeusChamados, AbrirChamado)
-│   │   ├── 📁 services/       # Configuração da API para o mobile
-│   │   └── 📁 context/        # Contexto de autenticação do usuário
-│   ├── App.js                # Ponto de entrada do app (Expo)
-│   ├── app.json              # Configurações do projeto Expo
-│   └── package.json          # Dependências do projeto mobile (npm/yarn)
-│
-├── 📁 docs/                   # Toda a documentação do projeto (Manual, DoR/DoD)
-│   ├── Manual_Usuario.md
-│   ├── DoD_DoR.md
-│   └── Sprints/
-│       ├── Sprint_1.md
-│       └── ...
-│
-└── README.md                 # O arquivo que você está lendo
+O projeto está dividido em módulos independentes integrados via API:
+
+/backend-api → API central (C# .NET 8 + SQL Server Azure)
+/backend-web → Backend Web (Python + Flask)
+/frontend-web → Interface Web (React)
+/frontend-mobile → Aplicativo Mobile (React Native)
+/frontend-desktop → Aplicação Desktop (Python + Kivy)
+/docs → Documentações e relatórios de Sprints
 
 
 </details>
@@ -138,20 +125,29 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>📖 <strong>Execução, Uso e Testes</strong></summary>
 
-### 🔹 Frontend  
+### 🔹 Frontend Web  
 1. Acesse a pasta `/frontend-web`  
 2. Execute `npm install`  
 3. Inicie com `npm start`  
 
-### 🔹 Backend  
-1. Acesse a pasta `/backend`  
+### 🔹 Backend Web  
+1. Acesse a pasta `/backend-web`  
 2. Instale dependências com `pip install -r requirements.txt`  
-3. Rode o servidor com `python app.py`  
+3. Inicie o servidor com `python app.py`  
+
+### 🔹 Backend Centralizado  
+1. Acesse a pasta `/backend-api`  
+2. Configure o **connection string** do SQL Server (Azure)  
+3. Execute a API com `dotnet run`  
 
 ### 🔹 Mobile  
 1. Acesse `/frontend-mobile`  
 2. Execute `npm install`  
 3. Inicie com `npx expo start`  
+
+### 🔹 Desktop  
+1. Acesse `/frontend-desktop`  
+2. Execute `python main.py`  
 
 </details>
 
@@ -160,7 +156,7 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 <details>
   <summary>📂 <strong>Link para Pasta de Documentação</strong></summary>
 
-📁 [Acessar Documentação](#)
+📁 [Acessar Documentação](https://github.com/SamuJL/Projeto-Unip/blob/main/docs/Diagrama%20UML%20Sistema.asta)
 
 </details>
 
@@ -181,13 +177,3 @@ A inteligência artificial (IA) será usada para sugerir soluções de forma aut
 </details>
 
 ---
-
-<details>
-  <summary>📘 <strong>Outros Elementos Obrigatórios</strong></summary>
-
-### 🗂️ Pasta de Documentação
-- [Checklist de DoR e DoD](#)
-- [DoR e DoD por Sprint](#)
-- [Manual do Usuário](#)
-
-</details>
