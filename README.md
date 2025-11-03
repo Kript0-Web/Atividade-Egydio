@@ -193,9 +193,9 @@ python main.py
 ---
 
 <details> <summary><strong>📂 Link para Documentação</strong></summary>
-📁 [Acessar Documentação Completa](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/tree/main/docs)
+📁 [Acessar Documentação Completa](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Diagrama%20ASTAH/Diagrama%20UML%20Sistema.asta)
 
-📄 [Checklist de DoR e DoD (Geral)](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
+📄 [Checklist de DoR e DoD (Geral)](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Checklist_DoR_DoD.md)
 
 ---
 
@@ -223,13 +223,13 @@ python main.py
 
 A documentação do projeto está organizada em `/docs`, contendo:
 
-- [📘 **Checklist de DoR (Definition of Ready)**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
-- [📙 **Checklist de DoD (Definition of Done)**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
-- [🏁 **Sprint 1 — Autenticação e Gerenciamento de Usuários**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint1.md)  
-- [⚙️ **Sprint 2 — Módulo de Chamados e Visualizações por Perfil**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint2.md)  
-- [🤖 **Sprint 3 — Integração com IA e Ciclo de Soluções**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint3.md) 
-- [📊 **Sprint 4 — Relatórios e Avaliação de Soluções**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint4.md)
-- [**Manual do Usuário e Diagramas UML**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Manual_de_Usuario_HelpWave.md)
+- [📘 **Checklist de DoR (Definition of Ready)**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Checklist_DoR_DoD.md)
+- [📙 **Checklist de DoD (Definition of Done)**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Checklist_DoR_DoD.md)
+- [🏁 **Sprint 1 — Autenticação e Gerenciamento de Usuários**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%201.md)  
+- [⚙️ **Sprint 2 — Módulo de Chamados e Visualizações por Perfil**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%202.md)  
+- [🤖 **Sprint 3 — Integração com IA e Ciclo de Soluções**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%203.md) 
+- [📊 **Sprint 4 — Relatórios e Avaliação de Soluções**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%204.md)
+- [**Manual do Usuário e Diagramas UML**](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Manual_de_Usuario_HelpWave.md)
 - </details>
 
 ---
