@@ -1,180 +1,235 @@
-
 # 📌 Sistema de Suporte com Serviços de IA — *HelpWave*
 
----
+<details OPEN>
+<summary><strong>🎯 Descrição do Desafio</strong></summary>
 
-<details open>
-  <summary>🎯 <strong>Descrição do Desafio</strong></summary>
+O **HelpWave** é um sistema integrado de suporte técnico voltado para empresas de médio porte. Seu principal objetivo é substituir o processo tradicional de recebimento de chamados por e-mail, centralizando as solicitações em uma plataforma unificada.
 
-O **HelpWave** é um sistema integrado de suporte técnico voltado para empresas de médio porte.  
-Seu principal objetivo é substituir o processo tradicional de recebimento de chamados por e-mail, centralizando as solicitações em uma plataforma unificada.  
-
-O sistema utiliza **Inteligência Artificial (IA)** para analisar automaticamente as descrições dos chamados, sugerindo soluções ao técnico responsável.  
-A solução é multiplataforma — abrangendo **Web**, **Mobile** e **Desktop** — e conta com três perfis principais de usuário:  
+O sistema utiliza **Inteligência Artificial (IA)** para analisar automaticamente as descrições dos chamados, sugerindo soluções ao técnico responsável.
+A solução é multiplataforma — abrangendo **Web**, **Mobile** e **Desktop** — e conta com três perfis principais de usuário:
 **Administrador**, **Suporte Técnico** e **Colaborador**.
+</details>
+
+---
+
+<details>
+<summary><strong>📋 Backlog do Produto (Requisitos Funcionais)</strong></summary>
+
+| ID | Item do Backlog | Prioridade | Sprint | Status |
+|----|------------------|-------------|---------|---------|
+| RF01 | Login no sistema com autenticação e controle de acesso por perfil (Administrador, Suporte, Colaborador) | Alta | Sprint 1 | Feito |
+| RF02 | Cadastro de novos usuários (Administrador) | Alta | Sprint 1 | Feito |
+| RF03 | Edição de informações de usuários (Administrador) | Média | Sprint 1 | Feito |
+| RF04 | Exclusão de usuários, com bloqueio caso haja chamados ativos vinculados | Média | Sprint 1 | Feito |
+| RF05 | Abertura de chamados por colaboradores (com título, descrição e categoria) | Alta | Sprint 2 | Feito |
+| RF06 | Acompanhamento de chamados criados pelo colaborador | Alta | Sprint 2 | Feito |
+| RF07 | Visualização geral de chamados (Administrador), com filtros por status, data e técnico responsável | Alta | Sprint 2 | Feito |
+| RF08 | Visualização de chamados atribuídos ao técnico (Suporte Técnico) | Média | Sprint 2 | Feito |
+| RF09 | Geração de relatórios administrativos de desempenho e chamados (Administrador) | Média | Sprint 3 | Feito |
+| RF10 | Geração de relatórios técnicos individuais de produtividade (Suporte Técnico) | Média | Sprint 3 | Feito |
+| RF11 | Recebimento automático de sugestão da IA para o chamado (Suporte Técnico) | Alta | Sprint 3 | Feito |
+| RF12 | Análise da sugestão da IA pelo técnico (aceitar, modificar ou ignorar) | Alta | Sprint 3 | Feito |
+| RF13 | Registro de solução pelo técnico e envio automático de notificação ao colaborador | Alta | Sprint 3 | Feito |
+| RF14 | Avaliação da solução pelo colaborador (aceitar ou rejeitar), com atualização de status do chamado | Alta | Sprint 4 | Feito |
 
 </details>
 
 ---
 
 <details>
-  <summary>📋 <strong>Backlog do Produto</strong></summary>
-
-| ID   | Item do Backlog | Prioridade | Sprint | Status   |
-|------|------------------|-------------|---------|-----------|
-| RF01 | Implementar autenticação e controle de acesso com níveis de permissão (Administrador, Suporte, Colaborador) | Alta | Sprint 1 | Pendente |
-| RF02 | Permitir cadastro de novos usuários (Administrador) | Alta | Sprint 1 | Pendente |
-| RF03 | Permitir edição de informações de usuários (Administrador) | Média | Sprint 1 | Pendente |
-| RF04 | Permitir exclusão de usuários cadastrados, com validação de vínculos a chamados ativos | Média | Sprint 1 | Pendente |
-| RF05 | Permitir abertura de chamados com título, descrição e categoria (Colaborador) | Alta | Sprint 2 | Pendente |
-| RF06 | Permitir acompanhamento de chamados abertos e seus status (Colaborador) | Alta | Sprint 2 | Pendente |
-| RF07 | Visualizar todos os chamados do sistema com filtros avançados (Administrador) | Alta | Sprint 2 | Pendente |
-| RF08 | Exibir chamados atribuídos a cada técnico (Suporte Técnico) | Média | Sprint 2 | Pendente |
-| RF09 | Integrar IA para sugerir soluções automáticas com base na descrição do chamado | Alta | Sprint 3 | Pendente |
-| RF10 | Permitir que o técnico analise, aceite, modifique ou rejeite a sugestão da IA | Alta | Sprint 3 | Pendente |
-| RF11 | Registrar a solução aplicada no chamado (Suporte Técnico) | Alta | Sprint 3 | Pendente |
-| RF12 | Concluir chamado resolvido e notificar colaborador (Suporte Técnico) | Alta | Sprint 3 | Pendente |
-| RF13 | Gerar relatórios administrativos e de desempenho (Administrador) | Média | Sprint 4 | Pendente |
-| RF14 | Visualizar relatórios técnicos de produtividade (Suporte Técnico) | Média | Sprint 4 | Pendente |
-
-</details>
-
----
-
-<details>
-  <summary>📆 <strong>Cronograma de Evolução do Projeto (Visual)</strong></summary>
+<summary><strong>📆 Cronograma de Evolução do Projeto</strong></summary>
 
 | Sprint | Período | Entregas Principais |
 |--------|----------|---------------------|
-| Sprint 1 | 15/09 – 01/10 | Autenticação, login e gerenciamento de usuários (CRUD completo) |
-| Sprint 2 | 02/10 – 18/10 | Módulo de chamados (abertura, acompanhamento e visualização por perfil) |
-| Sprint 3 | 19/10 – 03/11 | Integração com IA e fluxo de resolução de chamados (sugestão, análise e conclusão) |
-| Sprint 4 | 04/11 – 20/11 | Relatórios administrativos e técnicos com filtros e exportação |
+| Sprint 1 | 15/09 – 01/10 | Login, autenticação e CRUD de usuários |
+| Sprint 2 | 02/10 – 18/10 | Abertura, acompanhamento e visualização de chamados |
+| Sprint 3 | 19/10 – 03/11 | Integração com IA, registro e análise de soluções |
+| Sprint 4 | 04/11 – 20/11 | Relatórios administrativos e avaliação de soluções |
 
 </details>
 
 ---
 
 <details>
-  <summary>🧾 <strong>Tabela Descritiva das Sprints</strong></summary>
+<summary><strong>🧾 Tabela Descritiva das Sprints</strong></summary>
 
-| Período | Funcionalidades Desenvolvidas | Documentação da Sprint | Vídeo no YouTube |
-|----------|-------------------------------|------------------------|------------------|
-| Sprint 1 | Login, autenticação e CRUD de usuários | [📄 Documentação Sprint 1](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%201.md) | [🎥 Incremento 1](#) |
-| Sprint 2 | Abertura, acompanhamento e visualização de chamados (Admin, Colaborador e Suporte) | [📄 Documentação Sprint 2](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%202.md) | [🎥 Incremento 2](#) |
-| Sprint 3 | Integração da IA e gerenciamento completo do ciclo de chamados | [📄 Documentação Sprint 3](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%203.md) | [🎥 Incremento 3](#) |
-| Sprint 4 | Relatórios administrativos e técnicos de produtividade | [📄 Documentação Sprint 4](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%204.md) | [🎥 Incremento 4](#) |
-
-</details>
-
----
-
-<details>
-  <summary>🛠️ <strong>Tecnologias Utilizadas</strong></summary>
-
-### 🧩 **Arquitetura Geral**
-- Sistema distribuído com **Backend centralizado (API REST)**, integrando os módulos Web, Mobile e Desktop.  
-- Comunicação via **HTTP/JSON** com autenticação baseada em tokens.  
-- Hospedagem e serviços em nuvem através da **Azure Cloud**.
-
-### ⚙️ **Backend Centralizado (API de Banco de Dados)**
-- **Linguagem:** C# (.NET 8)  
-- **ORM:** Entity Framework Core  
-- **Banco de Dados:** SQL Server (Azure)
-
-### 🌐 **Frontend Web**
-- **Linguagens:** HTML, CSS, JavaScript  
-- **Framework:** React  
-
-### 🔧 **Backend Web**
-- **Linguagem:** Python  
-- **Framework:** Flask  
-
-### 📱 **Mobile**
-- **Linguagem:** JavaScript  
-- **Framework:** React Native  
-
-### 💻 **Desktop**
-- **Linguagem:** Python  
-- **Framework:** Kivy  
-
-### ☁️ **Infraestrutura e Gestão**
-- **Controle de Versão e Gestão de Projeto:** GitHub Projects  
-- **Nuvem e Deploy:** Azure Cloud  
+| Período | Funcionalidades Desenvolvidas | Documentação da Sprint |
+|----------|-------------------------------|------------------------|
+| Sprint 1 | Login e CRUD de usuários | [📄 Sprint 1](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%201.md) |
+| Sprint 2 | Chamados (abertura, acompanhamento e visualização) | [📄 Sprint 2](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/Sprint%202.md) |
+| Sprint 3 | Integração IA, registro e sugestão de soluções | [📄 Sprint 3](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%203.md) |
+| Sprint 4 | Relatórios e avaliação de soluções | [📄 Sprint 4](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Docs/Sprint/sprint%204.md) |
 
 </details>
 
 ---
 
 <details>
-  <summary>🏗️ <strong>Estrutura do Projeto</strong></summary>
+<summary><strong>🛠️ Tecnologias Utilizadas</strong></summary>
 
-O projeto está dividido em módulos independentes integrados via API:
+### 🧩 Arquitetura Geral
+* Sistema distribuído com **API REST centralizada**
+* Comunicação via **HTTP/JSON** e autenticação baseada em tokens
+* Hospedagem e serviços em nuvem através da **Azure Cloud**
 
-/backend-api → API central (C# .NET 8 + SQL Server Azure)
-/backend-web → Backend Web (Python + Flask)
-/frontend-web → Interface Web (React)
-/frontend-mobile → Aplicativo Mobile (React Native)
-/frontend-desktop → Aplicação Desktop (Python + Kivy)
-/docs → Documentações e relatórios de Sprints
+### ⚙️ Backend Centralizado (API de Banco de Dados)
+* **Linguagem:** C# (.NET 8)
+* **ORM:** Entity Framework Core
+* **Banco de Dados:** SQL Server (Azure)
 
+### 🌐 Frontend Web
+* **Linguagens:** HTML, CSS, JavaScript
+* **Framework:** React
 
-</details>
+### 🔧 Backend Web
+* **Linguagem:** Python
+* **Framework:** Flask
 
----
+### 📱 Mobile
+* **Linguagem:** JavaScript
+* **Framework:** React Native
 
-<details>
-  <summary>📖 <strong>Execução, Uso e Testes</strong></summary>
+### 💻 Desktop
+* **Linguagem:** Python
+* **Framework:** Kivy
 
-### 🔹 Frontend Web  
-1. Acesse a pasta `/frontend-web`  
-2. Execute `npm install`  
-3. Inicie com `npm start`  
-
-### 🔹 Backend Web  
-1. Acesse a pasta `/backend-web`  
-2. Instale dependências com `pip install -r requirements.txt`  
-3. Inicie o servidor com `python app.py`  
-
-### 🔹 Backend Centralizado  
-1. Acesse a pasta `/backend-api`  
-2. Configure o **connection string** do SQL Server (Azure)  
-3. Execute a API com `dotnet run`  
-
-### 🔹 Mobile  
-1. Acesse `/frontend-mobile`  
-2. Execute `npm install`  
-3. Inicie com `npx expo start`  
-
-### 🔹 Desktop  
-1. Acesse `/frontend-desktop`  
-2. Execute `python main.py`  
+### ☁️ Infraestrutura e Gestão
+* **Controle de Versão:** GitHub
+* **Metodologia:** Scrum com Git Flow simplificado
+* **Nuvem:** Azure Cloud
 
 </details>
 
 ---
 
 <details>
-  <summary>📂 <strong>Link para Pasta de Documentação</strong></summary>
-
-📁 [Acessar Documentação](https://github.com/Kript0-Web/Atividade-Egydio/blob/main/Diagrama%20ASTAH/Diagrama%20UML%20Sistema.asta)
+<summary><strong>🏗️ Estrutura do Projeto</strong></summary>
+  
+```
+/api               → API central (C# .NET 8 + SQL Server Azure)
+/web/backend       → Backend Web (Python + Flask)
+/web/frontend      → Interface Web (React)
+/mobile            → Aplicativo Mobile (React Native)
+/desktop           → Aplicação Desktop (Python + Kivy)
+/docs              → Documentações, sprints e manuais
+```
 
 </details>
 
 ---
 
 <details>
-  <summary>👥 <strong>Equipe</strong></summary>
+<summary><strong>📖 Como Executar, Usar e Testar</strong></summary>
+### 🔹 Backend Centralizado (API - C# / .NET 8)
 
-| Nome | Papel | GitHub |
-|------|--------|--------|
-| Lucas de Oliveira Silva | Desenvolvedor Frontend | [GitHub](https://github.com/Kript0-Web) |
-| Samuel Jhonata de Lima | Desenvolvedor Backend | [GitHub](https://github.com/SamuJL) |
-| Gabriel Oliveira dos Santos | Analista de Requisitos | [GitHub](https://github.com/gabrielods14) |
-| João Gabriel Goulart Silva | UX/UI Designer | [GitHub](https://github.com/Goulart06) |
-| Thiago Almeida Ribeiro | QA / Testes | [GitHub](https://github.com/Thiagoalmeida74) |
-| Gabriel Silva Guimarães | DevOps | [GitHub](https://github.com/guimagabs) |
+```bash
+cd api
+dotnet restore
+dotnet ef database update
+dotnet run
+```
+
+A API ficará disponível localmente em `https://localhost:5001` (ou conforme `launchSettings.json`).
+
+---
+
+### 🔹 Backend Web (Python + Flask)
+
+```bash
+cd web/backend
+python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # Linux/Mac
+pip install -r requirements.txt
+python app.py
+```
+
+Servidor iniciado em `http://127.0.0.1:5000/`.
+
+---
+
+### 🔹 Frontend Web (React)
+
+```bash
+cd web/frontend
+npm install
+npm start
+```
+
+Aplicação acessível em `http://localhost:3000/`.
+
+---
+
+### 🔹 Mobile (React Native)
+
+```bash
+cd mobile
+npm install
+npx expo start
+```
+
+Escaneie o QR Code com **Expo Go**.
+
+---
+
+### 🔹 Desktop (Python + Kivy)
+
+```bash
+cd desktop
+pip install -r requirements.txt
+python main.py
+```
+
+---
+
+
+### ☁️ Infraestrutura e Gestão
+* **Controle de Versão:** GitHub
+* **Metodologia:** Scrum com Git Flow simplificado
+* **Nuvem:** Azure Cloud
 
 </details>
+
+---
+
+<details> <summary><strong>📂 Link para Documentação</strong></summary>
+📁 [Acessar Documentação Completa](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/tree/main/docs)
+
+📄 [Checklist de DoR e DoD (Geral)](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
+
+---
+
+</details>
+
+---
+
+<details> <summary><strong>👥 Equipe</strong></summary>
+
+| Nome | Papel | GitHub | LinkedIn |
+|------|--------|--------|-----------|
+| Lucas de Oliveira Silva | FullStack Developer | [GitHub](https://github.com/Kript0-Web) | — |
+| Samuel Jhonata de Lima | FullStack Developer | [GitHub](https://github.com/SamuJL) | — |
+| Gabriel Oliveira dos Santos | FullStack Developer | [GitHub](https://github.com/gabrielods14) | — |
+| João Gabriel Goulart Silva | FullStack Developer | [GitHub](https://github.com/Goulart06) | — |
+| Thiago Almeida Ribeiro | FullStack Developer | [GitHub](https://github.com/Thiagoalmeida74) | — |
+| Gabriel Silva Guimarães | FullStack Developer | [GitHub](https://github.com/guimagabs) | — |
+
+---
+</details>
+
+---
+
+<details> <summary><strong>🗂️ Pasta de Documentação</strong></summary>
+
+A documentação do projeto está organizada em `/docs`, contendo:
+
+- [📘 **Checklist de DoR (Definition of Ready)**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
+- [📙 **Checklist de DoD (Definition of Done)**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Checklist_DoR_DoD.md)
+- [🏁 **Sprint 1 — Autenticação e Gerenciamento de Usuários**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint1.md)  
+- [⚙️ **Sprint 2 — Módulo de Chamados e Visualizações por Perfil**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint2.md)  
+- [🤖 **Sprint 3 — Integração com IA e Ciclo de Soluções**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint3.md) 
+- [📊 **Sprint 4 — Relatórios e Avaliação de Soluções**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/sprints/sprint4.md)
+- [**Manual do Usuário e Diagramas UML**](https://github.com/Thiagoalmeida74/APISistemaSuporte-ADS_2025/blob/main/docs/Manual_de_Usuario_HelpWave.md)
+- </details>
 
 ---
